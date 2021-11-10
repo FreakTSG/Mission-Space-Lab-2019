@@ -8,6 +8,7 @@ import random
 import datetime
 import os
 import csv
+
 sense = SenseHat()
 dir_path = os.path.dirname(os.path.realpath(__file__))
 logfile(dir_path + "/AEBSpace.log")
